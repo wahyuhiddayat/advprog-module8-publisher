@@ -29,3 +29,10 @@ Terminal dari `Publisher` ketika sedang dijalankan:
 
 Proses yang terjadi yaitu operasi dari publisher yang mengirim data melalui RabbitMQ dan subscriber yang menerima data tersebut. Publisher menghubungkan diri ke message server RabbitMQ lalu mengirim pesan ke exchange yang bertugas mendistribusikan pesan tersebut ke queue yang sesuai. Selanjutnya, subscriber menerima pesan dari queue ini. Output yang muncul di terminal subscriber menunjukkan pesan yang berhasil diambil, sedangkan terminal publisher menampilkan hasil dari eksekusi programnya.
 
+***Spikes On the Second Charts***
+
+<img width="1440" alt="Screenshot 2024-04-23 at 1 04 33 PM" src="https://github.com/wahyuhiddayat/advprog-module8-publisher/assets/119432989/89e70931-196c-4c11-8c81-bfd235f65e91">
+
+Spike pada message rates mengindikasikan dari publisher yang dijalankan beberapa kali (dalam hal ini saya menjalankannya dua kali) menggunakan `cargo run`
+
+
