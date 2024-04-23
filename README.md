@@ -10,3 +10,6 @@ URL "amqp://guest:guest@localhost:5672" yang digunakan baik pada program publish
 - **localhost:5672** menunjukkan bahwa message broker berjalan pada host lokal (mesin yang sama dengan program yang berjalan) dan mendengarkan pada port 5672.
 
 Jadi, URL yang sama pada program publisher dan subscriber mengindikasikan bahwa mereka berinteraksi dengan exchange yang sama di dalam broker untuk mengirim dan menerima pesan.
+
+***Interface RabbitMQ***
+<img width="1440" alt="Screenshot 2024-04-23 at 8 39 36 AM" src="https://github.com/wahyuhiddayat/advprog-module8-publisher/assets/119432989/60771198-807c-4b5a-8f58-41cf1a3c47be">
