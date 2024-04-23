@@ -17,7 +17,7 @@ Jadi, URL yang sama pada program publisher dan subscriber mengindikasikan bahwa 
 ***Connection on RabbitMQ***
 <img width="1440" alt="Screenshot 2024-04-23 at 12 48 22 PM" src="https://github.com/wahyuhiddayat/advprog-module8-publisher/assets/119432989/010cca40-c11f-4180-810f-ade556e06778">
 
-***Try to Run the Publisher Again***
+***Sending and Processing Event***
 
 `Publisher` mengirim 5 event messages:
 
@@ -29,10 +29,14 @@ Terminal dari `Publisher` ketika sedang dijalankan:
 
 Proses yang terjadi yaitu operasi dari publisher yang mengirim data melalui RabbitMQ dan subscriber yang menerima data tersebut. Publisher menghubungkan diri ke message server RabbitMQ lalu mengirim pesan ke exchange yang bertugas mendistribusikan pesan tersebut ke queue yang sesuai. Selanjutnya, subscriber menerima pesan dari queue ini. Output yang muncul di terminal subscriber menunjukkan pesan yang berhasil diambil, sedangkan terminal publisher menampilkan hasil dari eksekusi programnya.
 
-***Spikes On the Second Charts***
+***Monitoring Chart Based on Publisher***
 
 <img width="1440" alt="Screenshot 2024-04-23 at 1 04 33 PM" src="https://github.com/wahyuhiddayat/advprog-module8-publisher/assets/119432989/89e70931-196c-4c11-8c81-bfd235f65e91">
 
 Spike pada message rates mengindikasikan dari publisher yang dijalankan beberapa kali (dalam hal ini saya menjalankannya dua kali) menggunakan `cargo run`
+
+***Simulating Slow Subscriber***
+
+<img width="1314" alt="Screenshot 2024-04-23 at 1 52 17 PM" src="https://github.com/wahyuhiddayat/advprog-module8-publisher/assets/119432989/a0cf4563-63a1-483c-8dff-55955eef7877">
 
 
