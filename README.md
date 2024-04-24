@@ -39,4 +39,5 @@ Spike pada message rates mengindikasikan dari publisher yang dijalankan beberapa
 
 <img width="1314" alt="Screenshot 2024-04-23 at 1 52 17 PM" src="https://github.com/wahyuhiddayat/advprog-module8-publisher/assets/119432989/a0cf4563-63a1-483c-8dff-55955eef7877">
 
+Grafik menunjukkan message rate yang meningkat karena terjadinya pengiriman message beberapa kali melalui publisher yang ditangkap oleh message broker.
 
